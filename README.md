@@ -1,13 +1,12 @@
-# Containerized Angular and Spring Boot Application
+# Student Survey Management System
 
 ## Overview
-This project involves containerizing a web application using Docker and Docker Compose. The application consists of an Angular frontend and a Spring Boot backend. The main objective is to create a multi-container Docker application to simplify deployment and management.
+This project is a full-stack application that allows prospective students to fill out a survey form to provide feedback about their campus visit. It also allows users to view all recorded surveys. The application is developed using Angular for the frontend and Spring Boot for the backend, utilizing RESTful web services and JDBC or JPA for database interactions.
 
 ## Features
-- **Angular Frontend:** Dynamic and responsive web interface.
-- **Spring Boot Backend:** Robust backend service handling business logic and data processing.
-- **Docker Containerization:** Isolated and consistent environments for frontend and backend.
-- **Docker Compose:** Manages multi-container setup, defining services, networks, and volumes.
+- **Welcome Homepage:** Contains links to the Student Survey form and a list of all recorded surveys.
+- **Student Survey Form:** Feedback form with text boxes, checkboxes, radio buttons, dropdown, text area, and submit/cancel buttons.
+- **Survey List:** Displays all surveys submitted to date.
 
 ## File Structure
 - `AngularFrontend/`: Angular application code.
@@ -15,5 +14,3 @@ This project involves containerizing a web application using Docker and Docker C
 - `DB.sql`: SQL file for database schema or sample data.
 - `Dockerfile`: Configuration for building Docker images.
 - `docker-compose.yml`: Defines the multi-container Docker application setup.
-
-
