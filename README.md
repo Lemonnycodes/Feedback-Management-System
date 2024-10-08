@@ -12,11 +12,11 @@ This project demonstrates the full-stack application development experience by i
 
 2. **Student Survey Form**: The survey form collects detailed feedback from prospective students, including personal information, interest in the university, likelihood of recommending the university, and feedback about the campus.
 
-3. **Data Handling**: Upon submission, the Angular application makes a RESTful call to the backend, which then uses JDBC or JPA to store the data in the Oracle database.
+3. **Data Handling**: Upon submission, the  application makes a RESTful call to the backend, which then uses JDBC or JPA to store the data in the Oracle database.
 
 4. **View Submissions**: Users can view all previous survey submissions through the "List All Surveys" link, which queries the database and displays the data.
 
-5. **Containerization**: The application is containerized using Docker and Docker Compose, with separate containers for the frontend Angular application and the backend Spring Boot application.
+5. **Containerization**: The application is containerized using Docker and Docker Compose, with separate containers for the frontend  application and the backend Spring Boot application.
 
 ## Front-End: React Application
 
@@ -41,7 +41,7 @@ The back-end is implemented with Spring Boot and interacts with an Oracle databa
 
 The application is containerized to simplify deployment. Key files include:
 
-- **Dockerfile for Angular**: Defines the build process for the Angular front-end application.
+- **Dockerfile for React**: Defines the build process for the front-end application.
 - **Dockerfile for Spring Boot**: Defines the build process for the Spring Boot back-end application.
 - **docker-compose.yml**: Configures the Docker multi-container application.
 
@@ -67,18 +67,18 @@ The application is containerized to simplify deployment. Key files include:
     ```
 
 3. Access the application:
-    - Angular front-end: `http://localhost:4200`
+    - React front-end: `http://localhost:3000`
     - Spring Boot back-end API: `http://localhost:8080`
 
 ## Usage
 
-1. Navigate to the Angular front-end.
+1. Navigate to the React front-end.
 2. Use the survey form to submit feedback.
 3. View all submissions via the provided link on the landing page.
 
 ## Key Achievements 
 
- **Efficient Data Storage**: Achieved a 95% reduction in form submission latency by optimizing the Angular front-end and Spring Boot back-end interaction, ensuring quick and reliable data storage in the Oracle database.
+ **Efficient Data Storage**: Achieved a 95% reduction in form submission latency by optimizing the React front-end and Spring Boot back-end interaction, ensuring quick and reliable data storage in the Oracle database.
 
  **Robust API Performance**: Implemented a RESTful API capable of handling up to 1,000 survey submissions per minute, demonstrating the scalability and robustness of the backend system.
 
