@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the full-stack application development experience by implementing the frontend application using Angular (version 2 or higher) and the backend portion using RESTful Web Services with JDBC. The backend implementation is carried out using the Spring Boot platform. The purpose of this application is to allow prospective students to fill out a survey form to provide feedback about their campus visit and to enable users to view all surveys recorded to date. Additionally, the application is containerized using Docker and Docker Compose for streamlined deployment and management.
+This project demonstrates the full-stack application development experience by implementing the frontend application using React and the backend portion using RESTful Web Services with JDBC. The backend implementation is carried out using the Spring Boot platform. The purpose of this application is to allow prospective students to fill out a survey form to provide feedback about their campus visit and to enable users to view all surveys recorded to date. Additionally, the application is containerized using Docker and Docker Compose for streamlined deployment and management.
 
 ## Application Features
 
