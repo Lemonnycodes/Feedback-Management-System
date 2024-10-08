@@ -18,9 +18,9 @@ This project demonstrates the full-stack application development experience by i
 
 5. **Containerization**: The application is containerized using Docker and Docker Compose, with separate containers for the frontend Angular application and the backend Spring Boot application.
 
-## Front-End: Angular Application
+## Front-End: React Application
 
-The front-end is developed using Angular and includes the following components:
+The front-end is developed using React and includes the following components:
 
 - **Landing Page**: Provides links to the survey form and a page to view all previous submissions.
 - **Survey Form**: Collects detailed feedback from prospective students. Implemented in `student-survey.component.html`.
